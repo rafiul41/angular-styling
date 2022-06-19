@@ -1,3 +1,8 @@
 p {
   font-family: Lato;
 }
+
+.background-black {
+  background-color: black;
+  color: white;
+}

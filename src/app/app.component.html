@@ -6,3 +6,6 @@
 <p [ngStyle]="{ backgroundColor: 'red' }">using camelCase</p>
 
 <p [ngStyle]="{ 'background-color': 'green' }">using actual css property</p>
+
+<button (click)="changeBackground()">Alter Background for below line</button>
+<p [ngClass]="{ 'background-black': isBackgroundBlack }">using ngClass</p>

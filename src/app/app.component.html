@@ -3,9 +3,6 @@
 <!-- <hello [ngStyle]="{ backgroundColor: 'red' }" name="{{ name }}"></hello> -->
 <!-- above will not work as it is a custom component -->
 
-<p [ngStyle]="{ backgroundColor: 'red' }">
-  Start editing to see some magic happen :)
-</p>
-<p ngStyle="backgroundColor: 'red'">
-  Start editing to see some magic happen :)
-</p>
+<p [ngStyle]="{ backgroundColor: 'red' }">using camelCase</p>
+
+<p [ngStyle]="{ 'background-color': 'green' }">using actual css property</p>

@@ -1,0 +1,11 @@
+<hello name="{{ name }}"></hello>
+
+<!-- <hello [ngStyle]="{ backgroundColor: 'red' }" name="{{ name }}"></hello> -->
+<!-- above will not work as it is a custom component -->
+
+<p [ngStyle]="{ backgroundColor: 'red' }">
+  Start editing to see some magic happen :)
+</p>
+<p ngStyle="backgroundColor: 'red'">
+  Start editing to see some magic happen :)
+</p>
